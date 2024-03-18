@@ -1,3 +1,10 @@
+/*
+Užduotis 3 (IF - 2):
+Elektroninis laikrodis rodo laiką: valandas, minutes ir sekindes 
+(įvedami skaičiai h, m, s). Kiek laiko laikrodis rodys po sekundės? 
+(Išveskite h, m, ir s). Visi skaičiai įvedami kkaip parametrai (h,m,s).
+*/
+
 let h = Number(process.argv[2]);
 let m = Number(process.argv[3]);
 let s = Number(process.argv[4]);
