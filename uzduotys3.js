@@ -8,7 +8,7 @@ Elektroninis laikrodis rodo laiką: valandas, minutes ir sekindes
 let h = Number(process.argv[2]);
 let m = Number(process.argv[3]);
 let s = Number(process.argv[4]);
-let counter = s++;
+s++;
 
 if (s === 60) {
     s = 0;
@@ -21,7 +21,7 @@ if (s === 60) {
         h = 0;
     }
 }
-console.log(`${h}:${m}:${s}`);
+console.log(`${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`);
 
 
 
